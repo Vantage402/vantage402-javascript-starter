@@ -1,0 +1,50 @@
+{
+  "name": "@vantage402/x402-sdk",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Production-ready Express.js starter for building x402 payment-gated APIs. Enterprise-grade cryptocurrency payment infrastructure with multi-chain support, powered by Vantage402.",
+  "type": "module",
+  "bin": {
+    "create-x402-express": "bin/create.js"
+  },
+  "files": [
+    "template/**",
+    "bin/**",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "x402",
+    "sdk",
+    "payment",
+    "cryptocurrency",
+    "crypto",
+    "blockchain",
+    "express",
+    "typescript",
+    "javascript",
+    "vantage402",
+    "payments",
+    "api",
+    "middleware",
+    "base",
+    "solana",
+    "ethereum",
+    "web3",
+    "http-402",
+    "payment-protocol"
+  ],
+  "author": "Vantage402",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vantage402/vantage402-javascript-starter"
+  },
+  "config": {
+    "x402ExpressVersion": "0.6.5"
+  }
+}
